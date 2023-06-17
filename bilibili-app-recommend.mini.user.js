@@ -8,7 +8,7 @@
 // @icon         https://www.bilibili.com/favicon.ico
 // @homepageURL  https://greasyfork.org/zh-CN/scripts/443530-bilibili-app-recommend
 // @supportURL   https://github.com/magicdawn/bilibili-app-recommend/issues
-// @downloadURL  https://greasyfork.org/scripts/443530-bilibili-app-recommend/code/bilibili-app-recommend.user.js
+// @downloadURL  https://github.com/magicdawn/bilibili-app-recommend/raw/release/bilibili-app-recommend.mini.user.js
 // @match        https://www.bilibili.com/
 // @match        https://www.mcbbs.net/template/mcbbs/image/special_photo_bg.png
 // @match        https://www.bilibili.com/index.html
