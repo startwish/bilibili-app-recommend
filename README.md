@@ -16,8 +16,7 @@
 - [x] API 切换
 - [x] IINA
 - [x] 主题设置(预设主题 + color-picker 自定义)
-- [x] 已关注 Tab
-- [x] 动态 / 稍后再看 / 收藏 Tab
+- [x] 已关注 / 动态 / 稍后再看 / 收藏 Tab
 
 ## 链接
 
@@ -44,17 +43,22 @@
 
 - Chrome/Edge/Firefox: 支持 ViolentMonkey(我使用的) 和 TamperMonkey.
 - macOS Safari: [Userscripts](https://itunes.apple.com/us/app/userscripts/id1463298887), iPad Safari 上也可以使用
-- _**不支持**_ macOS Safari + TamperMonkey. (收费 Safari 插件, 已知不兼容, 请使用上述开源免费的 Userscripts
+- _**不支持**_ macOS Safari + TamperMonkey. (收费 Safari 插件, 已知不兼容, 请使用上述开源免费的 Userscripts)
 
-### 与 Bilibili-Evolved 的兼容性
+### 与 [Bilibili-Evolved](https://github.com/the1812/Bilibili-Evolved) 的兼容性
 
-- ❌ 首页相关 (如清爽首页 / 极简首页
-- [x] 夜间模式
-- [x] 自定义顶栏
+- ❌ 首页相关 (如清爽首页 / 极简首页)
+- ✅ 夜间模式
+- ✅ 自定义顶栏
+
+### 与 [BewlyBewly](https://github.com/hakadao/BewlyBewly) 的兼容性
+
+- 启用 Extension 后, 在 https://www.bilibili.com/ 页面上, 本脚本检测到该 Extension 会自动退出.
+- 使用特殊的地址强制启用本脚本 https://www.bilibili.com/#/bilibili-app-recommend/
 
 ### 你可能不需要这个脚本 :)
 
-- B 站桌面端已上线, 支持 MacOS / Windows, 首页推荐流
+- B 站桌面端已上线, 支持 macOS / Windows, 首页推荐流
 - B 站内测首页也是推荐流
 
 ## 介绍
@@ -77,7 +81,7 @@ _\* 截图均为不带 access_key 匿名获取, 不代表作者喜好_
 - 不需要 access_key 了
 - 标记不喜欢功能没了
 - 和首页自带推荐不一样, 自带推荐有视频预览 / 弹幕预览, 本项目还是鼠标滑动查看快照图片.
-- 首页自带推荐的接口, 貌似不会给你推荐番剧 (没有看见数据, 所以没有兼容)
+- 首页自带推荐的 API, 貌似不会给你推荐番剧 (没有看见数据, 所以没有兼容)
 - 推荐结果貌似更理想
 - 更快!
 
@@ -243,7 +247,7 @@ https://github.com/magicdawn/bilibili-app-recommend/raw/release-nightly/bilibili
 - 如果对你有用,请来个 Star :)
 - 如果你喜欢这个项目, 可以 「[爱发电](https://afdian.net/a/magicdawn)」 支持一下
 
-![afdian-magicdawn_w375](https://ghproxy.com/https://raw.githubusercontent.com/magicdawn/magicdawn/master/images/afdian-magicdawn_w375.jpg)
+![afdian-magicdawn_w375](https://mirror.ghproxy.com/https://raw.githubusercontent.com/magicdawn/magicdawn/master/images/afdian-magicdawn_w375.jpg)
 
 ## 更新日志
 
