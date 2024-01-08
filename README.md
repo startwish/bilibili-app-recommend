@@ -2,6 +2,14 @@
 
 > 为 B 站首页添加像 App 一样的推荐
 
+[![Greasy Fork Version](https://img.shields.io/greasyfork/v/443530?style=flat-square)][gfurl]
+[![Greasy Fork Downloads](https://img.shields.io/greasyfork/dt/443530?style=flat-square)][gfurl]
+[![Greasy Fork Downloads](https://img.shields.io/greasyfork/dd/443530?style=flat-square)][gfurl]
+[![Greasy Fork Rating](https://img.shields.io/greasyfork/rating-count/443530?style=flat-square)][gfurl]
+[![Build Status](https://img.shields.io/github/actions/workflow/status/magicdawn/bilibili-app-recommend/ci.yml?branch=main&style=flat-square&label=CI%20Build)](https://github.com/magicdawn/bilibili-app-recommend/actions/workflows/ci.yml)
+
+[gfurl]: https://greasyfork.org/zh-CN/scripts/443530-bilibili-app-recommend
+
 ## 功能
 
 - [x] 纯推荐模式, 无限滚动 (设置中开启)
@@ -264,6 +272,14 @@ https://github.com/magicdawn/bilibili-app-recommend/raw/release-nightly/bilibili
 ## 更新日志
 
 [CHANGELOG.md](https://github.com/magicdawn/bilibili-app-recommend/blob/main/CHANGELOG.md)
+
+## 参考的项目
+
+- https://github.com/indefined/UserScripts/tree/master/bilibiliHome
+- https://socialsisteryi.github.io/bilibili-API-collect/
+- https://github.com/hakadao/BewlyBewly/issues/101#issuecomment-1874308120
+- https://greasyfork.org/zh-CN/scripts/415804-%E5%93%94%E5%93%A9%E5%93%94%E5%93%A9-bilibili-com-%E6%92%AD%E6%94%BE%E9%A1%B5%E8%B0%83%E6%95%B4
+- ...more
 
 ## License
 
