@@ -12,7 +12,6 @@ import { useRef, useState } from 'react'
 const narrowStyle = {
   grid: css`
     /* card=360 col-gap=16  */
-    width: ${360 * 2 + 20}px;
     margin: 0 auto;
   `,
 }
